@@ -2,7 +2,7 @@ export class SecurityListConfig {
   type = 'all';
 
   filters: {
-    modeL_NAME?: string,
+    modelName?: string,
     limit?: number,
     offset?: number
   } = {};
